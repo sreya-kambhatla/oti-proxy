@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/claude.js": {
+      "runtime": "nodejs24.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/claude",
+      "dest": "/api/claude.js",
+      "methods": ["POST", "OPTIONS"]
+    }
+  ]
+}
